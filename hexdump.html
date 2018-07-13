@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Hexdump</title>
+
+        <script src="jquery-3.3.1.min.js"></script>
+
+        <link href="./hexdump.css" rel="stylesheet">
+        <script src="hexdump.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="hexdump">
+
+                <form id="base64-input">
+                    <h4>Base64 Input</h4>
+                    <textarea rows="5" cols="50"></textarea>
+                    <br>
+                    <button type="submit">Convert</button>
+                </form>
+
+                <pre>
+                    <table>
+                        <caption>Hexdump</caption>
+
+                        <thead>
+                            <tr>
+                                <th>offset</th>
+                                <th>hex</th>
+                                <th>ascii</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <!-- Hexdump -->
+                        </tbody>
+                    </table>
+                </pre>
+
+            </div>
+        </div>
+
+    </body>
+</html>
